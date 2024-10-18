@@ -16,7 +16,7 @@ void prim(int g[vertices][vertices])
     int par[vertices];
     int k[vertices];
     int mst[vertices];
-    int i, count,u,v; /*Here 'v' is the vertex*/
+    int i, count,u,v; /*Here 'v' is the vertex*/ 
     for (i = 0; i < vertices; i++)
     {	k[i] = INT_MAX;
 	mst[i] = 0;
