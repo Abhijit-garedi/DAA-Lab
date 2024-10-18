@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int c[7][7], w[7][7], r[7][7];
-int p[7] = {0, 3, 3, 1, 1, 2};  // probabilities of successful searches (keys)
+int p[7] = {0, 3, 3, 1, 1, 2};  // probabilities of successful searches(keys)
 int q[7] = {2, 3, 1, 1, 1, 1};  // probabilities of unsuccessful searches
 
 void obst(int n) {
