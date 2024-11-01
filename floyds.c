@@ -18,7 +18,6 @@ void APSP(int a[MAX][MAX],int n,int k)
     for (j = 0; j < n; j++)
       printf("%6d",a[i][j]);
   }
-  getch();
   k++;
   if(k<n) APSP(a,n,k);
 }
