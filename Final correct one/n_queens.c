@@ -1,4 +1,4 @@
-// sir wala corrected 
+// n queens sir wala corrected 
 #include <stdio.h>
 #include <stdlib.h>
 
