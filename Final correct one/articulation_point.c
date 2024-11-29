@@ -1,3 +1,4 @@
+//Program for articulation point
 #include <stdio.h>
 #define MAX 15
 
@@ -113,3 +114,8 @@ int main() {
 
     return 0;
 }
+
+/*    0   1   2   3   4   6   5   8   7
+2 is an Articulation Point
+4 is an Articulation Point
+6 is an Articulation Point% */
