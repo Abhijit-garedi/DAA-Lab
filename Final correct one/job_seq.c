@@ -1,3 +1,4 @@
+//job and sequence 
 #include<stdio.h>
 
 
