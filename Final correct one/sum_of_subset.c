@@ -1,3 +1,4 @@
+//sum of subsets 
 #include <stdio.h>
 #include <math.h>
 
