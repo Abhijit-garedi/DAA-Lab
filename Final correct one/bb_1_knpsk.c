@@ -1,3 +1,4 @@
+// 0/1 knapsack using branch and bound
 #include<stdio.h>
 #define Max 30
 typedef struct { double w;   double p;} Item;
