@@ -29,8 +29,7 @@ void prim(int g[vertices][vertices])
 	mst[u] = 1;
 	for (v = 0; v < vertices; v++)
 	{
-	    if (g[u][v] && mst[v] == 0 &&
-		 g[u][v] <  k[v]   )
+	    if (g[u][v] && mst[v] == 0 &&g[u][v] <  k[v]   )
 	    {
 		par[v]  = u;
 		k[v] = g[u][v];
