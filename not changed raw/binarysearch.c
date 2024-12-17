@@ -39,11 +39,15 @@ int main()
     printf("Enter the number of elements in the list: ");
     scanf("%d", &n);
     int arr[n];
+
+    
     printf("Enter the elements in ascending order:\n");
     for (int i = 0; i < n; i++)
      {
         scanf("%d", &arr[i]);
     }
+
+
     printf("Enter the key element: ");
     scanf("%d", &key);
     int result = binarysearch(arr, 0, key, n - 1);
